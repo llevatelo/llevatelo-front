@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import SearchForm from '../components/SearchForm';
 import ListingFullWidth from '../components/ListingFullWidth';
+import Footer from '../components/Footer';
 
 
 function Home() {
@@ -12,6 +13,9 @@ function Home() {
                 <SearchForm />
             </header>
             <ListingFullWidth />
+            <div className="footer">
+                <Footer />
+            </div>
         </div>
     );
 }
