@@ -11,7 +11,7 @@ import './assets/css/user.css';
 class Footer extends Component {
     render() {
         return (
-            
+            <footer className="footer">
                 <div className="wrapper">
                     <div className="container">
                     <div className="row">
@@ -98,7 +98,7 @@ class Footer extends Component {
                     </div>
                     {/*end background*/}
                 </div>
-            
+            </footer>
         );
     }
 }

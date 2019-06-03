@@ -13,9 +13,7 @@ function Home() {
                 <SearchForm />
             </header>
             <ListingFullWidth />
-            <div className="footer">
-                <Footer />
-            </div>
+            <Footer />
         </div>
     );
 }
