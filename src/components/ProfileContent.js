@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class ProfileContent extends Component {
     render() {
         return (
-            <div class="page sub-page">
+            <div className="page sub-page">
                 <section className="content">
                     <section className="block">
                         <div className="container">

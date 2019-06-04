@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import BackgroundIcons from './assets/img/hero-background-icons.jpg'
 import Logo from './assets/img/logo.png';
-
+import { Link } from 'react-router-dom';
 import './assets/bootstrap/css/bootstrap.css';
 import './assets/fonts/font-awesome.css';
 import './assets/css/selectize.css';
@@ -50,9 +50,9 @@ class Navbar extends Component {
                     <div className="main-navigation">
                         <div className="container">
                         <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
-                            <a className="navbar-brand" href="index.html">
-                            <img src={Logo} alt="Logo" />
-                            </a>
+                            <Link className="navbar-brand" to="/home">
+                                <img src={Logo} alt="Logo" />
+                            </Link>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon" />
                             </button>

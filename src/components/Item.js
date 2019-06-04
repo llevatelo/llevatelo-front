@@ -12,7 +12,7 @@ class Item extends Component {
                         <span className="tag">Offer</span>
                     </h3>
                     <a href="single-listing-1.html" className="image-wrapper background-image">
-                        <img src="./assets/img/image-02.jpg" alt="" />
+                        <img src="http://themestarz.net/html/craigs/assets/img/image-20.jpg" alt="" />
                     </a>
                     </div>
                     {/*end image*/}
