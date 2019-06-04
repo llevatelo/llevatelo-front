@@ -3,7 +3,7 @@ import ProfileHeader from '../components/ProfileHeader';
 import Footer from '../components/Footer';
 import SolditemsContent from '../components/SolditemsContent';
 
-function Home() {
+function Solditems() {
     return (
         <div className="App">
             <header className="hero">
@@ -17,6 +17,6 @@ function Home() {
     );
 }
 
-export default Home;
+export default Solditems;
 
 

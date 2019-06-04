@@ -3,7 +3,7 @@ import ProfileHeader from '../components/ProfileHeader';
 import Footer from '../components/Footer';
 import ProfileContent from '../components/ProfileContent';
 
-function Home() {
+function Profile() {
     return (
         <div className="App">
             <header className="hero">
@@ -17,5 +17,5 @@ function Home() {
     );
 }
 
-export default Home;
+export default Profile;
 

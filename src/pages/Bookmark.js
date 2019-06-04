@@ -3,7 +3,7 @@ import ProfileHeader from '../components/ProfileHeader';
 import Footer from '../components/Footer';
 import BookmarkContent from '../components/BookmarkContent';
 
-function Home() {
+function Bookmark() {
     return (
         <div className="App">
             <header className="hero">
@@ -17,5 +17,5 @@ function Home() {
     );
 }
 
-export default Home;
+export default Bookmark;
 
