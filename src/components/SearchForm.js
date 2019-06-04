@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 import BackgroundIcons from './assets/img/hero-background-icons.jpg'
 
-import './assets/bootstrap/css/bootstrap.css';
-import './assets/fonts/font-awesome.css';
-import './assets/css/selectize.css';
-import './assets/css/style.css';
-import './assets/css/user.css';
-
 class SearchForm extends Component {
     render() {
         return (

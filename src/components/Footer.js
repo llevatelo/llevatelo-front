@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import './assets/bootstrap/css/bootstrap.css';
-import './assets/fonts/font-awesome.css';
-import './assets/css/selectize.css';
 import Logo from './assets/img/logo.png';
 import FooterImage from './assets/img/footer-background-icons.jpg'
-import './assets/css/style.css';
-import './assets/css/user.css';
+
 
 
 class Footer extends Component {
