@@ -28,15 +28,15 @@ class FormCollapse extends Component {
                         {/*end col-md-3*/}
                         <div className="col-md-3 col-sm-3">
                             <div className="form-group">
-                            <label htmlFor="category" className="col-form-label">Category?</label>
-                            <select name="category" id="category" className="small" data-placeholder="Select Category">
-                                <option value>Select Category</option>
-                                <option value={1}>Computers</option>
-                                <option value={2}>Real Estate</option>
-                                <option value={3}>Cars &amp; Motorcycles</option>
-                                <option value={4}>Furniture</option>
-                                <option value={5}>Pets &amp; Animals</option>
-                            </select>
+                                <label htmlFor="category" className="col-form-label">Category?</label>
+                                <select className="selectize-input items full has-options has-items" name="category" id="category" data-placeholder="Select Category">
+                                    <option value>Select Category</option>
+                                    <option value={1}>Computers</option>
+                                    <option value={2}>Real Estate</option>
+                                    <option value={3}>Cars &amp; Motorcycles</option>
+                                    <option value={4}>Furniture</option>
+                                    <option value={5}>Pets &amp; Animals</option>
+                                </select>
                             </div>
                             {/*end form-group*/}
                         </div>
