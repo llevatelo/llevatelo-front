@@ -6,6 +6,7 @@ import Ads from '../pages/Ads';
 import Bookmark from '../pages/Bookmark';
 import ChangePassword from '../pages/ChangePassword';
 import SoldItems from '../pages/Solditems';
+import Messages from '../pages/Messages';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/bookmarks" component={ Bookmark } />
           <Route exact path="/change-password" component={ ChangePassword } />
           <Route exact path="/sold-items" component={ SoldItems } />
+          <Route exact path="/messages" component={ Messages } />
       </Switch>
     </BrowserRouter>
   );
