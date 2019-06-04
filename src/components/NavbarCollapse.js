@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Logo from './assets/img/logo.png';
-import { Link } from 'react-router-dom';
+
 
 class NavbarCollapse extends Component {
     render() {
@@ -8,9 +8,9 @@ class NavbarCollapse extends Component {
             <div className="main-navigation">
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
-                    <Link className="navbar-brand" to="/home">
+                    <a className="navbar-brand" href="/home">
                         <img src={Logo} alt="Logo" />
-                    </Link>
+                    </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>

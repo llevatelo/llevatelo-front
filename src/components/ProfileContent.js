@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ImageAuthor from './assets/img/author-08.jpg';
-import { Link } from 'react-router-dom';
+
 
 class ProfileContent extends Component {
     render() {
@@ -12,21 +12,21 @@ class ProfileContent extends Component {
                         <div className="row">
                             <div className="col-md-3">
                             <nav className="nav flex-column side-nav">
-                                <Link className="nav-link active icon" to={'/profile'}>
+                                <a className="nav-link active icon" href="/profile">
                                     <i className="fa fa-user" />My Profile
-                                </Link>
-                                <Link className="nav-link icon" to={'/my-ads'}>
+                                </a>
+                                <a className="nav-link icon" href="/my-ads">
                                     <i className="fa fa-heart" />My Ads Listing
-                                </Link>
-                                <Link className="nav-link icon" to={'/bookmarks'}>
+                                </a>
+                                <a className="nav-link icon" href="/bookmarks">
                                     <i className="fa fa-star" />Bookmarks
-                                </Link>
-                                <Link className="nav-link icon" to={'/change-password'}>
-                                <i className="fa fa-recycle" />Change Password
-                                </Link>
-                                <Link className="nav-link icon" to={'/sold-items'}>
-                                <i className="fa fa-check" />Sold Items
-                                </Link>
+                                </a>
+                                <a className="nav-link icon" href="/change-password">
+                                    <i className="fa fa-recycle" />Change Password
+                                </a>
+                                <a className="nav-link icon" href="/sold-items">
+                                    <i className="fa fa-check" />Sold Items
+                                </a>
                             </nav>
                             </div>
                             {/*end col-md-3*/}

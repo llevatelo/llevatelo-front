@@ -3,7 +3,6 @@ import Image01 from './assets/img/image-01.jpg';
 import Image02 from './assets/img/image-02.jpg';
 import Image03 from './assets/img/image-03.jpg';
 import Image04 from './assets/img/image-04.jpg';
-import { Link } from 'react-router-dom';
 
 class AdsContent extends Component {
     render() {
@@ -15,21 +14,21 @@ class AdsContent extends Component {
                         <div className="row">
                             <div className="col-md-3">
                             <nav className="nav flex-column side-nav">
-                                <Link className="nav-link icon" to={'/profile'}>
+                                <a className="nav-link icon" href="/profile">
                                     <i className="fa fa-user" />My Profile
-                                </Link>
-                                <Link className="nav-link active icon" to={'/my-ads'}>
+                                </a>
+                                <a className="nav-link active icon" href="/my-ads">
                                     <i className="fa fa-heart" />My Ads Listing
-                                </Link>
-                                <Link className="nav-link icon" to={'/bookmarks'}>
+                                </a>
+                                <a className="nav-link icon" href="/bookmarks">
                                     <i className="fa fa-star" />Bookmarks
-                                </Link>
-                                <Link className="nav-link icon" to={'/change-password'}>
+                                </a>
+                                <a className="nav-link icon" href="/change-password">
                                 <i className="fa fa-recycle" />Change Password
-                                </Link>
-                                <Link className="nav-link icon" to={'/sold-items'}>
+                                </a>
+                                <a className="nav-link icon" href="/sold-items">
                                 <i className="fa fa-check" />Sold Items
-                                </Link>
+                                </a>
                             </nav>
                             </div>
                             {/*end col-md-3*/}
@@ -37,7 +36,7 @@ class AdsContent extends Component {
                             {/*============ Section Title===================================================================*/}
                             <div className="section-title clearfix">
                                 <div className="float-left float-xs-none">
-                                <label className="mr-3 align-text-bottom">Sort by: </label>
+                                <label className="mr-3 align-text-bothrefm">Sort by: </label>
                                 <select name="sorting" id="sorting" className="small width-200px" data-placeholder="Default Sorting">
                                     <option value>Default Sorting</option>
                                     <option value={1}>Newest First</option>
