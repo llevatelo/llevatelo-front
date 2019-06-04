@@ -49,12 +49,12 @@ class SearchForm extends Component {
                             <div className="form-group">
                                 <label htmlFor="category" className="col-form-label">Category?</label>
                                 <select className="selectize-input items full has-options has-items" name="category" id="category" data-placeholder="Select Category">
-                                <option value>Select Category</option>
-                                <option value={1}>Computers</option>
-                                <option value={2}>Real Estate</option>
-                                <option value={3}>Cars &amp; Motorcycles</option>
-                                <option value={4}>Furniture</option>
-                                <option value={5}>Pets &amp; Animals</option>
+                                    <option value>Select Category</option>
+                                    <option value={1}>Computers</option>
+                                    <option value={2}>Real Estate</option>
+                                    <option value={3}>Cars &amp; Motorcycles</option>
+                                    <option value={4}>Furniture</option>
+                                    <option value={5}>Pets &amp; Animals</option>
                                 </select>
                             </div>
                             {/*end form-group*/}

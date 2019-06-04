@@ -4,6 +4,7 @@ import './assets/fonts/font-awesome.css';
 import './assets/css/selectize.css';
 import './assets/css/style.css';
 import './assets/css/user.css';
+import Image01 from './assets/img/logo.png';
 
 class ListingFullWidth extends Component {
     render() {
@@ -51,7 +52,7 @@ class ListingFullWidth extends Component {
                                 <span className="tag">Offer</span>
                             </h3>
                             <a href="single-listing-1.html" className="image-wrapper background-image">
-                                <img src="assets/img/image-01.jpg" alt="" />
+                                <img src={Image01} alt="" />
                             </a>
                             </div>
                             {/*end image*/}
