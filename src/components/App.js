@@ -8,6 +8,7 @@ import ChangePassword from '../pages/ChangePassword';
 import SoldItems from '../pages/Solditems';
 import Messages from '../pages/Messages';
 import ItemDetail from '../pages/ItemDetail';
+import CreateArticle from '../pages/CreateArticle';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/sold-items" component={ SoldItems } />
           <Route exact path="/messages" component={ Messages } />
           <Route exact path="/details" component={ ItemDetail } />
+          <Route exact path="/create-article" component={ CreateArticle } />
       </Switch>
     </BrowserRouter>
   );
