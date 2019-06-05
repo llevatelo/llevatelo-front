@@ -7,6 +7,7 @@ import Bookmark from '../pages/Bookmark';
 import ChangePassword from '../pages/ChangePassword';
 import SoldItems from '../pages/Solditems';
 import Messages from '../pages/Messages';
+import ItemDetail from '../pages/ItemDetail';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/change-password" component={ ChangePassword } />
           <Route exact path="/sold-items" component={ SoldItems } />
           <Route exact path="/messages" component={ Messages } />
+          <Route exact path="/details" component={ ItemDetail } />
       </Switch>
     </BrowserRouter>
   );
