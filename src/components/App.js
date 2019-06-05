@@ -9,7 +9,7 @@ import SoldItems from '../pages/Solditems';
 import Messages from '../pages/Messages';
 import ItemDetail from '../pages/ItemDetail';
 import CreateArticle from '../pages/CreateArticle';
-
+import FAQs from '../pages/FAQs'
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
           <Route exact path="/messages" component={ Messages } />
           <Route exact path="/details" component={ ItemDetail } />
           <Route exact path="/create-article" component={ CreateArticle } />
+          <Route exact path="/FAQs" component={ FAQs } />
       </Switch>
     </BrowserRouter>
   );
