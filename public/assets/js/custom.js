@@ -6,6 +6,7 @@ var resizeId;
 
 $(document).ready(function($) {
     "use strict";
+      
 
 //  Geo Location button
 

@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 
 class FormBasicInfo extends Component {
     
+    handleChange = e => {
+        console.log(e.target.value);
+    }
+
     render() {
         return (
             <section>
@@ -32,14 +36,13 @@ class FormBasicInfo extends Component {
                         <div className="form-group">
                         
                             <label htmlFor="submit-category" className="col-form-label">Category</label>
-                            <select className="change-tab" data-change-tab-target="category-tabs" name="submit_category" id="submit-category" data-placeholder="Select Category">
-                            <option value>Select Category</option>
-                            <option value="computers">Computers</option>
-                            <option value="real_estate">Real Estate</option>
-                            <option value="cars_motorcycles">Cars &amp; Motorcycles</option>
-                            <option value="furniture">Furniture</option>
-                            </select>
-                        
+                                <select onChange={this.handleChange} className="change-tab" data-change-tab-target="category-tabs" name="submit_category" id="submit-category" data-placeholder="Select Category">
+                                    <option value>Select Category</option>
+                                    <option value="computers">Computers</option>
+                                    <option value="real_estate">Real Estate</option>
+                                    <option value="cars_motorcycles">Cars &amp; Motorcycles</option>
+                                    <option value="furniture">Furniture</option>
+                                </select>
                         </div>
                     {/*end form-group*/}
                     </div>
