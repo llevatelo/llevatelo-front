@@ -66,10 +66,10 @@ function Messages() {
                         {/*end Details*/}
 
                         {/*Location*/}
-                        <section>
+                        {/* <section>
                             <h2>Location</h2>
                             <div className="map height-300px" id="map-small" />
-                        </section>
+                        </section> */}
                         {/*end Location*/}
                         {/*Features*/}
                         <section>

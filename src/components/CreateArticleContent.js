@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FormBasicInfo from './FormBasicInfo';
 import FormFeatures from './FormFeatures';
-import FormLocation from './FormLocation';
+/* import FormLocation from './FormLocation'; */
 
 class CreateArticleContent extends Component {
     render() {
@@ -35,7 +35,7 @@ class CreateArticleContent extends Component {
                                     </div>
                                 {/*end form-group*/}
                                 </section>
-                                <FormLocation />
+                                {/* <FormLocation /> */}
                                 <section>
                                     <h2>Gallery</h2>
                                     <div className="file-upload-previews" />
