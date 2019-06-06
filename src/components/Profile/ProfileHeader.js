@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import NavbarCollapse from './NavbarCollapse';
-import FormCollapse from './FormCollapse';
-import SecondaryNavigation from './SecondaryNavigation';
-import PageHeader from './PageHeader';
+import NavbarCollapse from '../Navbar/NavbarCollapse';
+import FormCollapse from '../Form/FormCollapse';
+import SecondaryNavigation from '../Navbar/SecondaryNavigation';
+import PageHeader from '../Complements/PageHeader';
 
 
 class ProfileHeader extends Component {

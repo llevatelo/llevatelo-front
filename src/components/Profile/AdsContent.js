@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Image01 from './assets/img/image-01.jpg';
-import Image02 from './assets/img/image-02.jpg';
-import Image03 from './assets/img/image-03.jpg';
-import Image04 from './assets/img/image-04.jpg';
+import Image01 from '../assets/img/image-01.jpg';
+import Image02 from '../assets/img/image-02.jpg';
+import Image03 from '../assets/img/image-03.jpg';
+import Image04 from '../assets/img/image-04.jpg';
 
 class AdsContent extends Component {
     render() {

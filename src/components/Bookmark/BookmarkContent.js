@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import ItemSold from './SoldItem/ItemSold';
-import ItemNotSold from './SoldItem/ItemNotSold';
+import BookmarkItem from './BookmarkItem';
 
-class SolditemsContent extends Component {
+
+class BookmarkContent extends Component {
     render() {
         return (
             <div className="page sub-page">
@@ -18,14 +18,14 @@ class SolditemsContent extends Component {
                                 <a className="nav-link icon" href="/my-ads">
                                     <i className="fa fa-heart" />My Ads Listing
                                 </a>
-                                <a className="nav-link icon" href="/bookmarks">
+                                <a className="nav-link active icon" href="/bookmarks">
                                     <i className="fa fa-star" />Bookmarks
                                 </a>
                                 <a className="nav-link icon" href="/change-password">
-                                    <i className="fa fa-recycle" />Change Password
+                                <i className="fa fa-recycle" />Change Password
                                 </a>
-                                <a className="nav-link active icon" href="/sold-items">
-                                    <i className="fa fa-check" />Sold Items
+                                <a className="nav-link icon" href="/sold-items">
+                                <i className="fa fa-check" />Sold Items
                                 </a>
                             </nav>
                             </div>
@@ -53,13 +53,45 @@ class SolditemsContent extends Component {
                                 </div>
                             </div>
                             {/*============ Items ==========================================================================*/}
-                            <div className="items list grid-xl-3-items grid-lg-3-items grid-md-2-items">
-                                <ItemSold />
-                                <ItemNotSold />
-                                <ItemSold />
-                                <ItemNotSold />
+                            <div className="items list compact grid-xl-3-items grid-lg-3-items grid-md-2-items">
+                                <BookmarkItem />
+                                <BookmarkItem />
+                                <BookmarkItem />                                
                             </div>
                             {/*end items*/}
+                            {/*============ End Items ==============================================================*/}
+                            <div className="page-pagination">
+                                <nav aria-label="Pagination">
+                                <ul className="pagination">
+                                    <li className="page-item">
+                                    <a className="page-link" href="/" aria-label="Previous">
+                                        <span aria-hidden="true">
+                                        <i className="fa fa-chevron-left" />
+                                        </span>
+                                        <span className="sr-only">Previous</span>
+                                    </a>
+                                    </li>
+                                    <li className="page-item active">
+                                    <a className="page-link" href="/">1</a>
+                                    </li>
+                                    <li className="page-item">
+                                    <a className="page-link" href="/">2</a>
+                                    </li>
+                                    <li className="page-item">
+                                    <a className="page-link" href="/">3</a>
+                                    </li>
+                                    <li className="page-item">
+                                    <a className="page-link" href="/" aria-label="Next">
+                                        <span aria-hidden="true">
+                                        <i className="fa fa-chevron-right" />
+                                        </span>
+                                        <span className="sr-only">Next</span>
+                                    </a>
+                                    </li>
+                                </ul>
+                                </nav>
+                            </div>
+                            {/*end page-pagination*/}
                             </div>
                             {/*end col-md-9*/}
                         </div>
@@ -74,4 +106,4 @@ class SolditemsContent extends Component {
     }
 }
 
-export default SolditemsContent;
+export default BookmarkContent;

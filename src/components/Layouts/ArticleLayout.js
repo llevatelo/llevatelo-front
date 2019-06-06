@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../Footer';
-import CreateArticleHeader from '../CreateArticleHeader';
+import Footer from '../Complements/Footer';
+import CreateArticleHeader from '../Article/CreateArticleHeader';
 
 
 function ArticleLayout(props) {

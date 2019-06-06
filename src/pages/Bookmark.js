@@ -1,5 +1,5 @@
 import React from 'react';
-import BookmarkContent from '../components/BookmarkContent';
+import BookmarkContent from '../components/Bookmark/BookmarkContent';
 import ProfileLayout from '../components/Layouts/ProfileLayout';
 
 function Bookmark() {

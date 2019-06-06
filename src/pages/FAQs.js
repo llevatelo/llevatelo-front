@@ -1,5 +1,5 @@
 import React from 'react';
-import FaqContent from '../components/FaqContent';
+import FaqContent from '../components/Faq/FaqContent';
 import ArticleLayout from '../components/Layouts/ArticleLayout';
 
 function FAQs() {

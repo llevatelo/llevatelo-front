@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ListingFullWidth from '../components/ListingFullWidth';
+import ListingFullWidth from '../components/Home/ListingFullWidth';
 import HomeLayout from '../components/Layouts/HomeLayout';
 
 

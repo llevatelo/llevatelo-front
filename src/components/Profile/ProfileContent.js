@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ImageAuthor from './assets/img/author-08.jpg';
-import PersonalSection from './Profile/PersonalSection';
-import ContactSection from './Profile/ContactSection';
+import ImageAuthor from '../assets/img/author-08.jpg';
+import PersonalSection from './PersonalSection';
+import ContactSection from './ContactSection';
 
 
 class ProfileContent extends Component {

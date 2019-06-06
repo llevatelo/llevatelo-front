@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
-import FormCollapse from './FormCollapse';
-import PageHeader from './PageHeader';
+import Navbar from '../Navbar/Navbar';
+import FormCollapse from '../Form/FormCollapse';
+import PageHeader from '../Complements/PageHeader';
 
 
 class CreateArticleHeader extends Component {

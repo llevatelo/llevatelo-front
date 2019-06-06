@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../Footer';
-import ProfileHeader from '../ProfileHeader';
+import Footer from '../Complements/Footer';
+import ProfileHeader from '../Profile/ProfileHeader';
 
 
 function ProfileLayout(props) {

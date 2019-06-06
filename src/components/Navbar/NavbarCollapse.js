@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Logo from './assets/img/logo.png';
-import NavItem1 from './Navbar/NavItem1';
-import NavItem2 from './Navbar/NavItem2';
-import NavItem3 from './Navbar/NavItem3';
+import Logo from '../assets/img/logo.png';
+import NavItem1 from './NavItem1';
+import NavItem2 from './NavItem2';
+import NavItem3 from './NavItem3';
 
 
 class NavbarCollapse extends Component {

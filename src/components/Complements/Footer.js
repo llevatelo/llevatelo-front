@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Logo from './assets/img/logo.png';
-import FooterImage from './assets/img/footer-background-icons.jpg'
+import Logo from '../assets/img/logo.png';
+import FooterImage from '../assets/img/footer-background-icons.jpg'
 
 
 

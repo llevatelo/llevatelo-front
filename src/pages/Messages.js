@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileLayout from '../components/Layouts/ProfileLayout';
-import MessageContent from '../components/MessageContent';
+import MessageContent from '../components/Message/MessageContent';
 
 function Messages() {
     return (

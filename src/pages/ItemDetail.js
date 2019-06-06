@@ -1,8 +1,8 @@
 import React from 'react';
 
-import ItemsList from  '../components/ItemsList';
-import ItemDetailCarousel from '../components/ItemDetailCarousel'; 
-import UserSidebar from '../components/UserSidebar';
+import ItemsList from  '../components/Item/ItemsList';
+import ItemDetailCarousel from '../components//Item/ItemDetailCarousel'; 
+import UserSidebar from '../components/Complements/UserSidebar';
 import ItemDetailLayout from '../components/Layouts/ItemDetailLayout';
 
 function Messages() {

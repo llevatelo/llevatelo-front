@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layouts/ProfileLayout';
-import SolditemsContent from '../components/SolditemsContent';
+import SolditemsContent from '../components/SoldItem/SolditemsContent';
 
 function Solditems() {
     return (

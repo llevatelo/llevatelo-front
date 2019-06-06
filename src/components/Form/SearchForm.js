@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BackgroundIcons from './assets/img/hero-background-icons.jpg'
+import BackgroundIcons from '../assets/img/hero-background-icons.jpg'
 
 class SearchForm extends Component {
     render() {
