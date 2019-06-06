@@ -1,19 +1,15 @@
 import React from 'react';
-import ProfileHeader from '../components/ProfileHeader';
-import Footer from '../components/Footer';
 import BookmarkContent from '../components/BookmarkContent';
+import ProfileLayout from '../components/Layouts/ProfileLayout';
 
 function Bookmark() {
     return (
         <div className="App">
-            <header className="hero">
-                <ProfileHeader title="Bookmarks"/>
-            </header>
-            
-            <BookmarkContent />
-            
-            <Footer />
+            <ProfileLayout title="Bookmarks">            
+                <BookmarkContent />
+            </ProfileLayout>        
         </div>
+        
     );
 }
 

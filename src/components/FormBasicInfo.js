@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class FormBasicInfo extends Component {
+    
     render() {
         return (
             <section>

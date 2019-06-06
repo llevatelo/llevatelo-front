@@ -1,19 +1,14 @@
 import React, { Component } from 'react';
-import ProfileHeader from '../components/ProfileHeader';
-import Footer from '../components/Footer';
 import ChangePasswordContent from '../components/ChangePasswordContent';
+import ProfileLayout from '../components/Layouts/ProfileLayout';
 
 class ChangePassword extends Component {
     render() {
         return (
             <div className="App">
-                <header className="hero">
-                    <ProfileHeader title="Change my password"/>
-                </header>
-                
-                <ChangePasswordContent />
-                
-                <Footer />
+                <ProfileLayout title="Change My Password">            
+                    <ChangePasswordContent />
+                </ProfileLayout>        
             </div>
         );
     }

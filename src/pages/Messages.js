@@ -1,18 +1,14 @@
 import React from 'react';
-import ProfileHeader from '../components/ProfileHeader';
-import Footer from '../components/Footer';
+import ProfileLayout from '../components/Layouts/ProfileLayout';
 import MessageContent from '../components/MessageContent';
 
 function Messages() {
     return (
+        
         <div className="App">
-            <header className="hero">
-                <ProfileHeader title="Messages"/>
-            </header>
-            
-            <MessageContent />
-            
-            <Footer />
+            <ProfileLayout title="Messages">            
+                <MessageContent />
+            </ProfileLayout>            
         </div>
     );
 }

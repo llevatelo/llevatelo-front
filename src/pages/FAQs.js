@@ -1,19 +1,13 @@
 import React from 'react';
-
-import Footer from '../components/Footer';
-import CreateArticleHeader from '../components/CreateArticleHeader';
 import FaqContent from '../components/FaqContent';
+import ArticleLayout from '../components/Layouts/ArticleLayout';
 
 function FAQs() {
     return (
         <div className="App">
-            <header className="hero">
-                <CreateArticleHeader title="Frequently Asked Questions"/>
-            </header>
-                
-            <FaqContent />
-            
-            <Footer />
+            <ArticleLayout title="Frequently Asked Questions">
+                <FaqContent />
+            </ArticleLayout>  
         </div>
     );
 }

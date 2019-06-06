@@ -38,11 +38,11 @@ class ListingFullWidth extends Component {
                         <Item city="Dallas, TX"/>
                         <Item city="Provo, UT"/>
                         
-                        <a href="submit.html" className="item call-to-action">
+                        <a href="/create-article" className="item call-to-action">
                             <div className="wrapper">
                                 <div className="title">
                                     <i className="fa fa-plus-square-o" />
-                                    Submit Your Ad
+                                    Create An Article
                                 </div>
                             </div>
                         </a>

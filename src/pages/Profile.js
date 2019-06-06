@@ -1,18 +1,13 @@
 import React from 'react';
-import ProfileHeader from '../components/ProfileHeader';
-import Footer from '../components/Footer';
 import ProfileContent from '../components/ProfileContent';
+import ProfileLayout from '../components/Layouts/ProfileLayout';
 
 function Profile() {
     return (
         <div className="App">
-            <header className="hero">
-                <ProfileHeader title="My Profile"/>
-            </header>
-            
-            <ProfileContent />
-            
-            <Footer />
+            <ProfileLayout title="My Profile">            
+                <ProfileContent />
+            </ProfileLayout>            
         </div>
     );
 }
