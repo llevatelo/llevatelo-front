@@ -4,15 +4,19 @@
   "private": true,
   "dependencies": {
     "husky": "^2.3.0",
+    "icheck": "^1.0.2",
     "jquery": "^3.4.1",
+    "jquery-multifile": "^2.2.2",
     "lint-staged": "^8.1.7",
+    "masonry.js": "^3.1.5",
     "node-sass": "^4.12.0",
     "owl.carousel": "^2.3.4",
     "prettier": "^1.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "validate-bootstrap.jquery": "^0.10.6"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [

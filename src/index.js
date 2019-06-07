@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
+import 'jquery-multifile';
+import 'icheck/icheck';
+
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
