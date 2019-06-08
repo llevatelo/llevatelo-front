@@ -3,6 +3,7 @@ import Image01 from '../assets/img/image-01.jpg';
 import Image02 from '../assets/img/image-02.jpg';
 import Image03 from '../assets/img/image-03.jpg';
 import Image04 from '../assets/img/image-04.jpg';
+import NavItems from '../Navbar/NavItems';
 
 class AdsContent extends Component {
     render() {
@@ -12,25 +13,7 @@ class AdsContent extends Component {
                     <section className="block">
                         <div className="container">
                         <div className="row">
-                            <div className="col-md-3">
-                            <nav className="nav flex-column side-nav">
-                                <a className="nav-link icon" href="/profile">
-                                    <i className="fa fa-user" />My Profile
-                                </a>
-                                <a className="nav-link active icon" href="/my-ads">
-                                    <i className="fa fa-heart" />My Ads Listing
-                                </a>
-                                <a className="nav-link icon" href="/bookmarks">
-                                    <i className="fa fa-star" />Bookmarks
-                                </a>
-                                <a className="nav-link icon" href="/change-password">
-                                <i className="fa fa-recycle" />Change Password
-                                </a>
-                                <a className="nav-link icon" href="/sold-items">
-                                <i className="fa fa-check" />Sold Items
-                                </a>
-                            </nav>
-                            </div>
+                            <NavItems path="Ads"/>
                             {/*end col-md-3*/}
                             <div className="col-md-9">
                             {/*============ Section Title===================================================================*/}

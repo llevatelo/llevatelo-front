@@ -28,22 +28,22 @@ class FormCollapse extends Component {
                             </div>
                             {/*end col-md-3*/}
                             <div className="col-md-3 col-sm-3">
-                            <div className="form-group">
-                                <label htmlFor="category" className="col-form-label">Category?</label>
-                                <select name="category" id="category" className="small" data-placeholder="Select Category">
-                                <option value>Select Category</option>
-                                <option value={1}>Computers</option>
-                                <option value={2}>Real Estate</option>
-                                <option value={3}>Cars &amp; Motorcycles</option>
-                                <option value={4}>Furniture</option>
-                                <option value={5}>Pets &amp; Animals</option>
-                                </select>
-                            </div>
+                                <div className="form-group">
+                                    <label htmlFor="category" className="col-form-label">Category?</label>
+                                    <select name="category" id="category" className="small" data-placeholder="Select Category">
+                                        <option value>Select Category</option>
+                                        <option value={1}>Computers</option>
+                                        <option value={2}>Real Estate</option>
+                                        <option value={3}>Cars &amp; Motorcycles</option>
+                                        <option value={4}>Furniture</option>
+                                        <option value={5}>Pets &amp; Animals</option>
+                                    </select>
+                                </div>
                             {/*end form-group*/}
                             </div>
                             {/*end col-md-3*/}
                             <div className="col-md-3 col-sm-3">
-                            <button type="submit" className="btn btn-primary width-100 small">Search</button>
+                                <button type="submit" className="btn btn-primary width-100 small">Search</button>
                             </div>
                             {/*end col-md-3*/}
                         </div>
