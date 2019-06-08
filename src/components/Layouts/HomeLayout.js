@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../Complements/Footer';
 import Navbar from '../Navbar/Navbar';
-import SearchForm from '../Form/SearchForm';
+import SearchForm from '../Navbar/SearchForm';
 
 
 function HomeLayout(props) {

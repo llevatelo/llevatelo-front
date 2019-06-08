@@ -1,5 +1,5 @@
 import React from 'react';
-import CreateArticleContent from '../components/Article/CreateArticleContent';
+import CreateArticleContent from '../components/CreateArticle/CreateArticleContent';
 import ArticleLayout from '../components/Layouts/ArticleLayout';
 
 function CreateArticle() {

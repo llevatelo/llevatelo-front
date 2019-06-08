@@ -1,7 +1,7 @@
 import React from 'react';
 
-import ItemsList from  '../components/Item/ItemsList';
-import ItemDetailCarousel from '../components//Item/ItemDetailCarousel'; 
+import ItemsList from  '../components/ItemDetail/ItemsList';
+import ItemDetailCarousel from '../components/ItemDetail/ItemDetailCarousel'; 
 import UserSidebar from '../components/Complements/UserSidebar';
 import ItemDetailLayout from '../components/Layouts/ItemDetailLayout';
 

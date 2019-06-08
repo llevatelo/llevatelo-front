@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import NavbarCollapse from '../Navbar/NavbarCollapse';
-import FormCollapse from '../Form/FormCollapse';
+import FormCollapse from '../Navbar/FormCollapse';
 import SecondaryNavigation from '../Navbar/SecondaryNavigation';
-import ItemDetailTitle from '../Item/ItemDetailTitle';
+import ItemDetailTitle from '../ItemDetail/ItemDetailTitle';
 
 
 class ItemDetailHeader extends Component {

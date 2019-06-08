@@ -1,5 +1,5 @@
 import React from 'react';
-import AdsContent from '../components/Profile/AdsContent';
+import AdsContent from '../components/Ads/AdsContent';
 import ProfileLayout from '../components/Layouts/ProfileLayout';
 
 function Ads() {

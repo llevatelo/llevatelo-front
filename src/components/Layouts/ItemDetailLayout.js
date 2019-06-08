@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemDetailHeader from '../Item/ItemDetailHeader';
+import ItemDetailHeader from '../ItemDetail/ItemDetailHeader';
 import Footer from '../Complements/Footer';
 
 function ItemDetailLayout(props) {

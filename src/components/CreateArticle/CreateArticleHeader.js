@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../Navbar/Navbar';
-import FormCollapse from '../Form/FormCollapse';
+import FormCollapse from '../Navbar/FormCollapse';
 import PageHeader from '../Complements/PageHeader';
 
 

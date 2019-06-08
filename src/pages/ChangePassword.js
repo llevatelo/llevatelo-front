@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ChangePasswordContent from '../components/Profile/ChangePasswordContent';
+import ChangePasswordContent from '../components/ChangePassword/ChangePasswordContent';
 import ProfileLayout from '../components/Layouts/ProfileLayout';
 
 class ChangePassword extends Component {

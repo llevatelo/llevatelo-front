@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import FormBasicInfo from '../Form/FormBasicInfo';
-import FormFeatures from '../Form/FormFeatures';
+import FormBasicInfo from '../Profile/FormBasicInfo';
+import FormFeatures from './FormFeatures';
 /* import FormLocation from './FormLocation'; */
 
 class CreateArticleContent extends Component {
