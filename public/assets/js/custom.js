@@ -80,15 +80,7 @@ $(document).ready(function($) {
 
 //  Button for class changing
 
-    $(".change-class").on("click", function(e){
-        e.preventDefault();
-        var parentClass = $( "."+$(this).attr("data-parent-class") );
-        parentClass.removeClass( $(this).attr("data-change-from-class") );
-        parentClass.addClass( $(this).attr("data-change-to-class") );
-        $(this).parent().find(".change-class").removeClass("active");
-        $(this).addClass("active");
-        readMore();
-    });
+    
 
     if( $(".masonry").length ){
         $(".items.masonry").masonry({

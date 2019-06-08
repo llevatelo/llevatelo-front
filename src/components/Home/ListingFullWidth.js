@@ -1,9 +1,21 @@
 import React, { Component } from 'react';
 import ItemSold from './ItemSold';
 import Item from './Item';
-
+import $ from 'jquery';
 
 class ListingFullWidth extends Component {
+
+    componentDidMount() {
+        $(".change-class").on("click", function(e){
+            e.preventDefault();
+            var parentClass = $( "."+$(this).attr("data-parent-class") );
+            parentClass.removeClass( $(this).attr("data-change-from-class") );
+            parentClass.addClass( $(this).attr("data-change-to-class") );
+            $(this).parent().find(".change-class").removeClass("active");
+            $(this).addClass("active");
+        });
+    }
+
     render() {
         return (
             <div className="page sub-page">
@@ -23,7 +35,7 @@ class ListingFullWidth extends Component {
                         </select>
                         </div>
                         <div className="float-right d-xs-none thumbnail-toggle">
-                        <a href="/" className="change-class" data-change-from-class="list" data-change-to-class="grid" data-parent-class="items">
+                        <a onClick={this.handleClick} href="/" className="change-class" data-change-from-class="list" data-change-to-class="grid" data-parent-class="items">
                             <i className="fa fa-th" />
                         </a>
                         <a href="/" className="change-class active" data-change-from-class="grid" data-change-to-class="list" data-parent-class="items">
