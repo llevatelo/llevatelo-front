@@ -12,10 +12,10 @@ class BookmarkItem extends Component {
                     <div className="image">
                         <h3>
                             <a href="/" className="tag category">Home &amp; Decor</a>
-                            <a href="single-listing-1.html" className="title">Furniture for sale</a>
+                            <a href="/details" className="title">Furniture for sale</a>
                             <span className="tag">Offer</span>
                         </h3>
-                        <a href="single-listing-1.html" className="image-wrapper background-image">
+                        <a href="/details" className="image-wrapper background-image">
                             <img src="./assets/img/image-01.jpg" alt="" />
                         </a>
                     </div>
@@ -39,7 +39,7 @@ class BookmarkItem extends Component {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis lobortis</p>
                         </div>
                     {/*end description*/}
-                    <a href="single-listing-1.html" className="detail text-caps underline">Detail</a>
+                    <a href="/details" className="detail text-caps underline">Detail</a>
                 </div>
             </div>
         );

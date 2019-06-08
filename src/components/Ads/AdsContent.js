@@ -46,10 +46,10 @@ class AdsContent extends Component {
                                     <div className="image">
                                     <h3>
                                         <a href="/" className="tag category">Home &amp; Decor</a>
-                                        <a href="single-listing-1.html" className="title">Furniture for sale</a>
+                                        <a href="/details" className="title">Furniture for sale</a>
                                         <span className="tag">Offer</span>
                                     </h3>
-                                    <a href="single-listing-1.html" className="image-wrapper background-image">
+                                    <a href="/details" className="image-wrapper background-image">
                                         <img src={Image01} alt="" />
                                     </a>
                                     </div>
@@ -74,7 +74,7 @@ class AdsContent extends Component {
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis lobortis</p>
                                     </div>
                                     {/*end description*/}
-                                    <a href="single-listing-1.html" className="detail text-caps underline">Detail</a>
+                                    <a href="/details" className="detail text-caps underline">Detail</a>
                                 </div>
                                 </div>
                                 {/*end item*/}
@@ -83,10 +83,10 @@ class AdsContent extends Component {
                                     <div className="image">
                                     <h3>
                                         <a href="/" className="tag category">Education</a>
-                                        <a href="single-listing-1.html" className="title">Creative Course</a>
+                                        <a href="/details" className="title">Creative Course</a>
                                         <span className="tag">Offer</span>
                                     </h3>
-                                    <a href="single-listing-1.html" className="image-wrapper background-image">
+                                    <a href="/details" className="image-wrapper background-image">
                                         <img src={Image02} alt="" />
                                     </a>
                                     </div>
@@ -128,7 +128,7 @@ class AdsContent extends Component {
                                     </ul>
                                     </div>
                                     {/*end addition-info*/}
-                                    <a href="single-listing-1.html" className="detail text-caps underline">Detail</a>
+                                    <a href="/details" className="detail text-caps underline">Detail</a>
                                 </div>
                                 </div>
                                 {/*end item*/}
@@ -137,10 +137,10 @@ class AdsContent extends Component {
                                     <div className="image">
                                     <h3>
                                         <a href="/" className="tag category">Adventure</a>
-                                        <a href="single-listing-1.html" className="title">Into The Wild</a>
+                                        <a href="/details" className="title">Into The Wild</a>
                                         <span className="tag">Ad</span>
                                     </h3>
-                                    <a href="single-listing-1.html" className="image-wrapper background-image">
+                                    <a href="/details" className="image-wrapper background-image">
                                         <img src={Image03} alt="" />
                                     </a>
                                     </div>
@@ -165,7 +165,7 @@ class AdsContent extends Component {
                                     <p>Nam eget ullamcorper massa. Morbi fringilla lectus nec lorem tristique gravida</p>
                                     </div>
                                     {/*end description*/}
-                                    <a href="single-listing-1.html" className="detail text-caps underline">Detail</a>
+                                    <a href="/details" className="detail text-caps underline">Detail</a>
                                 </div>
                                 </div>
                                 {/*end item*/}
@@ -174,10 +174,10 @@ class AdsContent extends Component {
                                     <div className="image">
                                     <h3>
                                         <a href="/" className="tag category">Real Estate</a>
-                                        <a href="single-listing-1.html" className="title">Luxury Apartment</a>
+                                        <a href="/details" className="title">Luxury Apartment</a>
                                         <span className="tag">Offer</span>
                                     </h3>
-                                    <a href="single-listing-1.html" className="image-wrapper background-image">
+                                    <a href="/details" className="image-wrapper background-image">
                                         <img src={Image04} alt="" />
                                     </a>
                                     </div>
@@ -223,7 +223,7 @@ class AdsContent extends Component {
                                     </ul>
                                     </div>
                                     {/*end addition-info*/}
-                                    <a href="single-listing-1.html" className="detail text-caps underline">Detail</a>
+                                    <a href="/details" className="detail text-caps underline">Detail</a>
                                 </div>
                                 </div>
                                 {/*end item*/}

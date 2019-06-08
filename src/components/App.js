@@ -1,4 +1,5 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'; 
 import Home from '../pages/Home';
 import Profile from '../pages/Profile';
@@ -12,6 +13,7 @@ import CreateArticle from '../pages/CreateArticle';
 import FAQs from '../pages/FAQs'
 
 function App() {
+  
   return (
     <BrowserRouter>      
       <Switch>
@@ -25,6 +27,7 @@ function App() {
           <Route exact path="/details" component={ ItemDetail } />
           <Route exact path="/create-article" component={ CreateArticle } />
           <Route exact path="/FAQs" component={ FAQs } />
+          <Route render={() => <Redirect to="/home" />} />
       </Switch>
     </BrowserRouter>
   );

@@ -85,7 +85,7 @@ class Navbar extends Component {
                             <a className="nav-link" href="contact.html">Contact</a>
                             </li>
                             <li className="nav-item">
-                            <a href="submit.html" className="btn btn-primary text-caps btn-rounded btn-framed">Submit Ad</a>
+                            <a href="/create-article" className="btn btn-primary text-caps btn-rounded btn-framed">Submit Ad</a>
                             </li>
                         </ul>
                         {/*Main navigation list*/}

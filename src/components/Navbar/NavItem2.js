@@ -32,7 +32,7 @@ class NavItem2 extends Component {
                     <a href="blog-post.html" className="nav-link">Blog Post</a>
                     </li>
                     <li className="nav-item">
-                    <a href="submit.html" className="nav-link">Submit Ad</a>
+                    <a href="/create-article" className="nav-link">Submit Ad</a>
                     </li>
                     <li className="nav-item">
                     <a href="pricing.html" className="nav-link">Pricing</a>

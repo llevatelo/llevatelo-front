@@ -52,7 +52,7 @@ class Footer extends Component {
                                         <nav>
                                             <ul className="list-unstyled">
                                             <li>
-                                                <a href="/">My Ads</a>
+                                                <a href="/my-ads">My Ads</a>
                                             </li>
                                             <li>
                                                 <a href="/">Sign In</a>

@@ -63,7 +63,7 @@ class NavItem1 extends Component {
                     {/* 2nd level */}
                     <ul className="child">
                         <li className="nav-item">
-                        <a href="single-listing-1.html" className="nav-link">Single 1</a>
+                        <a href="/details" className="nav-link">Single 1</a>
                         </li>
                         <li className="nav-item">
                         <a href="single-listing-2.html" className="nav-link">Single 2</a>

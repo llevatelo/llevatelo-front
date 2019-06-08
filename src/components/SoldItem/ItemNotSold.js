@@ -8,10 +8,10 @@ class ItemNotSold extends Component {
                     <div className="image">
                         <h3>
                             <a href="/" className="tag category">Education</a>
-                            <a href="single-listing-1.html" className="title">Creative Course</a>
+                            <a href="/details" className="title">Creative Course</a>
                             <span className="tag">Offer</span>
                         </h3>
-                        <a href="single-listing-1.html" className="image-wrapper background-image">
+                        <a href="/details" className="image-wrapper background-image">
                             <img src="assets/img/image-02.jpg" alt="" />
                         </a>
                     </div>
@@ -52,7 +52,7 @@ class ItemNotSold extends Component {
                         </ul>
                     </div>
                     {/*end addition-info*/}
-                    <a href="single-listing-1.html" className="detail text-caps underline">Detail</a>
+                    <a href="/details" className="detail text-caps underline">Detail</a>
                 </div>
             </div>
         );
