@@ -31,14 +31,14 @@ class MessageWindow extends Component {
                         </div> 
                     </div>
                     <div className="messaging__footer">
-                    <form className="form">
-                        <div className="input-group">
-                        <input type="text" className="form-control mr-4" placeholder="Your Message" />
-                        <div className="input-group-append">
-                            <button className="btn btn-primary" type="submit">Send <i className="fa fa-send ml-3" /></button>
-                        </div>
-                        </div>
-                    </form>
+                        <form className="form">
+                            <div className="input-group">
+                            <input type="text" className="form-control mr-4" placeholder="Your Message" />
+                            <div className="input-group-append">
+                                <button className="btn btn-primary" type="submit">Send <i className="fa fa-send ml-3" /></button>
+                            </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>

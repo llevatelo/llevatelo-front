@@ -8,23 +8,21 @@ class FormFeatures extends Component {
     render() {
         return (
             <div className="col-md-8">
-                
-                    <h2>Features</h2>
-                    <div className="form-slides" id="category-tabs">
-                        <div className="form">
-                            <h3>Please Select a Category</h3>
-                        </div>
-                        
-                        <FormSlideComputer />
-                        {/*end computers.form-slide*/}
-                        <FormSlideRealState />
-                        {/*end real_estate.form-slide*/}
-                        <FormSlideCars />
-                        {/*end cars.form-slide*/}
-                        <FormSlideFurniture />
+                <h2>Features</h2>
+                <div className="form-slides" id="category-tabs">
+                    <div className="form">
+                        <h3>Please Select a Category</h3>
                     </div>
-                    {/*end form-slides*/}
-                
+                    
+                    <FormSlideComputer />
+                    {/*end computers.form-slide*/}
+                    <FormSlideRealState />
+                    {/*end real_estate.form-slide*/}
+                    <FormSlideCars />
+                    {/*end cars.form-slide*/}
+                    <FormSlideFurniture />
+                </div>
+                {/*end form-slides*/}
             </div>
             
         );

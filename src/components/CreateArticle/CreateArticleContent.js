@@ -12,10 +12,10 @@ class CreateArticleContent extends Component {
                         <div className="container">
                             <section>
                                 <div className="alert alert-warning" role="alert">
-                                <h2 className="alert-heading">You don't have an account!</h2>
-                                <p>You can submit only 1 ad at a time. To submit more, you need to
-                                    <a href="sign-in.html" className="link"><strong>Sign In</strong></a> or
-                                    <a href="register.html" className="link"><strong>Register</strong></a></p>
+                                    <h2 className="alert-heading">You don't have an account!</h2>
+                                    <p>You can submit only 1 ad at a time. To submit more, you need to
+                                        <a href="sign-in.html" className="link"><strong>Sign In</strong></a> or
+                                        <a href="register.html" className="link"><strong>Register</strong></a></p>
                                 </div>
                             </section>
                             <form className="form form-submit">

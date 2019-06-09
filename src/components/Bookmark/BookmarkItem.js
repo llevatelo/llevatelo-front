@@ -21,7 +21,7 @@ class BookmarkItem extends Component {
                     </div>
                     {/*end image*/}
                     <h4 className="location">
-                    <a href="/">Manhattan, NY</a>
+                        <a href="/">Manhattan, NY</a>
                     </h4>
                     <div className="price">$80</div>
                         <div className="meta">

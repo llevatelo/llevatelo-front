@@ -13,14 +13,14 @@ class FormBasicInfo extends Component {
                     <div className="form-group" id="type">
                         <label htmlFor="type" className="required">Type</label>
                         <figure>
-                        <label className="framed">
-                            <input type="radio" name="type" defaultValue={1} required />
-                            Offer
-                        </label>
-                        <label className="framed">
-                            <input type="radio" name="type" defaultValue={2} required />
-                            Demand
-                        </label>
+                            <label className="framed">
+                                <input type="radio" name="type" defaultValue={1} required />
+                                Offer
+                            </label>
+                            <label className="framed">
+                                <input type="radio" name="type" defaultValue={2} required />
+                                Demand
+                            </label>
                         </figure>
                     </div>
                 <div className="row">

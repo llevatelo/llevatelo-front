@@ -8,21 +8,21 @@ class PersonalSection extends Component {
                     <section>
                         <div className="row">
                             <div className="col-md-4">
-                            <div className="form-group">
-                                <label htmlFor="title" className="col-form-label">Title</label>
-                                <select name="title" id="title" data-placeholder="Title">
-                                <option value>Title</option>
-                                <option value={1} defaultValue="true">Mrs</option>
-                                <option value={2}>Mr</option>
-                                </select>
-                            </div>
+                                <div className="form-group">
+                                    <label htmlFor="title" className="col-form-label">Title</label>
+                                    <select name="title" id="title" data-placeholder="Title">
+                                    <option value>Title</option>
+                                    <option value={1} defaultValue="true">Mrs</option>
+                                    <option value={2}>Mr</option>
+                                    </select>
+                                </div>
                             {/*end form-group*/}
                             </div>
                             <div className="col-md-8">
-                            <div className="form-group">
-                                <label htmlFor="name" className="col-form-label required">Your Name</label>
-                                <input name="name" type="text" className="form-control" id="name" placeholder="Your Name" defaultValue="Jane Doe" required />
-                            </div>
+                                <div className="form-group">
+                                    <label htmlFor="name" className="col-form-label required">Your Name</label>
+                                    <input name="name" type="text" className="form-control" id="name" placeholder="Your Name" defaultValue="Jane Doe" required />
+                                </div>
                             {/*end form-group*/}
                             </div>
                             {/*end col-md-8*/}

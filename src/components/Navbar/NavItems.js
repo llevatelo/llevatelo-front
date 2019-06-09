@@ -5,7 +5,7 @@ class NavItems extends Component {
         return (
             <div className="col-md-3">
                 <nav className="nav flex-column side-nav">
-                <a className={"nav-link icon " + (this.props.path === 'Profile' ? ' active' : '')} href="/profile">
+                    <a className={"nav-link icon " + (this.props.path === 'Profile' ? ' active' : '')} href="/profile">
                         <i className="fa fa-user" />My Profile
                     </a>
                     <a className={"nav-link icon " + (this.props.path === 'Ads' ? ' active' : '')} href="/my-ads">
