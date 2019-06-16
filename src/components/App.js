@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from "react";
 import { Redirect } from 'react-router-dom';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'; 
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Profile from '../pages/Profile';
 import Ads from '../pages/Ads';
@@ -10,13 +10,13 @@ import SoldItems from '../pages/Solditems';
 import Messages from '../pages/Messages';
 import ItemDetail from '../pages/ItemDetail';
 import CreateArticle from '../pages/CreateArticle';
-import FAQs from '../pages/FAQs'
+import FAQs from '../pages/FAQs';
 
-function App() {
-  
-  return (
-    <BrowserRouter>      
-      <Switch>
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <Switch>
           <Route exact path="/home" component={ Home } />
           <Route exact path="/profile" component={ Profile } />
           <Route exact path="/my-ads" component={ Ads } />
@@ -28,9 +28,10 @@ function App() {
           <Route exact path="/create-article" component={ CreateArticle } />
           <Route exact path="/FAQs" component={ FAQs } />
           <Route render={() => <Redirect to="/home" />} />
-      </Switch>
-    </BrowserRouter>
-  );
+        </Switch>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;

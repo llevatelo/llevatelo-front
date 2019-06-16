@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BackgroundIcons from "../assets/img/hero-background-icons.jpg";
+import BackgroundIcons from "../../assets/img/hero-background-icons.jpg";
 
 class SearchForm extends Component {
   render() {
@@ -8,8 +8,8 @@ class SearchForm extends Component {
         <div className="page-title">
           <div className="container">
             <h1 className="opacity-40 center">
-              <a href="/">Buy</a>, <a href="/">Sell</a> or <a href="/">Find</a>{" "}
-              What You need
+              <a href="/">Buy</a>, <a href="/">Sell</a> or
+              <a href="/">Find</a>{" "} What You need
             </h1>
           </div>
           {/*end container*/}
@@ -23,9 +23,7 @@ class SearchForm extends Component {
               <div className="form-row">
                 <div className="col-md-3 col-sm-3">
                   <div className="form-group">
-                    <label htmlFor="what" className="col-form-label">
-                      What?
-                    </label>
+                    <label htmlFor="what" className="col-form-label">What?</label>
                     <input
                       name="keyword"
                       type="text"
@@ -39,9 +37,7 @@ class SearchForm extends Component {
                 {/*end col-md-3*/}
                 <div className="col-md-3 col-sm-3">
                   <div className="form-group">
-                    <label htmlFor="input-location" className="col-form-label">
-                      Where?
-                    </label>
+                    <label htmlFor="input-location" className="col-form-label">Where? </label>
                     <input
                       name="location"
                       type="text"
@@ -63,9 +59,7 @@ class SearchForm extends Component {
                 {/*end col-md-3*/}
                 <div className="col-md-3 col-sm-3">
                   <div className="form-group">
-                    <label htmlFor="category" className="col-form-label">
-                      Category?
-                    </label>
+                    <label htmlFor="category" className="col-form-label"> Category?</label>
                     <select
                       name="category"
                       id="category"
@@ -83,9 +77,7 @@ class SearchForm extends Component {
                 </div>
                 {/*end col-md-3*/}
                 <div className="col-md-3 col-sm-3">
-                  <button type="submit" className="btn btn-primary width-100">
-                    Search
-                  </button>
+                  <button type="submit" className="btn btn-primary width-100"> Search</button>
                 </div>
                 {/*end col-md-3*/}
               </div>

@@ -4,7 +4,6 @@ import Navbar from "../Navbar/Navbar";
 import SearchForm from "../Navbar/SearchForm";
 
 function HomeLayout(props) {
-  /* const children = props.children; */
   return (
     <React.Fragment>
       <header className="hero">
