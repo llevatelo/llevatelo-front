@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import BackgroundIcons from "../assets/img/hero-background-icons.jpg";
 import Logo from "../assets/img/logo.png";
-import "../assets/bootstrap/css/bootstrap.css";
 import "../assets/fonts/font-awesome.css";
 import "../assets/css/selectize.css";
 import "../assets/css/style.css";
