@@ -7,22 +7,7 @@ class PersonalSection extends Component {
         <h2>Personal Information</h2>
         <section>
           <div className="row">
-            <div className="col-md-4">
-              <div className="form-group">
-                <label htmlFor="title" className="col-form-label">
-                  Title
-                </label>
-                <select name="title" id="title" data-placeholder="Title">
-                  <option value>Title</option>
-                  <option value={1} defaultValue="true">
-                    Mrs
-                  </option>
-                  <option value={2}>Mr</option>
-                </select>
-              </div>
-              {/*end form-group*/}
-            </div>
-            <div className="col-md-8">
+            <div className="col-md-12">
               <div className="form-group">
                 <label htmlFor="name" className="col-form-label required">
                   Your Name

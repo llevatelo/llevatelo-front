@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../../assets/fonts/font-awesome.css";
-import "../../assets/css/selectize.css";
 import "../../assets/css/style.css";
 import "../../assets/css/user.css";
 import BackgroundIcons from "../../assets/img/hero-background-icons.jpg";
