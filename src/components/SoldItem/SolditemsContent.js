@@ -16,23 +16,6 @@ class SolditemsContent extends Component {
                 <div className="col-md-9">
                   {/*============ Section Title===================================================================*/}
                   <div className="section-title clearfix">
-                    <div className="float-left float-xs-none">
-                      <label className="mr-3 align-text-bottom">
-                        Sort by:{" "}
-                      </label>
-                      <select
-                        name="sorting"
-                        id="sorting"
-                        className="small width-200px"
-                        data-placeholder="Default Sorting"
-                      >
-                        <option value>Default Sorting</option>
-                        <option value={1}>Newest First</option>
-                        <option value={2}>Oldest First</option>
-                        <option value={3}>Lowest Price First</option>
-                        <option value={4}>Highest Price First</option>
-                      </select>
-                    </div>
                     <div className="float-right d-xs-none thumbnail-toggle">
                       <a
                         href="/"
