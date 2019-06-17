@@ -1,8 +1,33 @@
 import React, { Component } from "react";
 import BackgroundIcons from "../../assets/img/hero-background-icons.jpg";
+import Select from 'react-select';
+
+import "./styles.scss";
+
 
 class SearchForm extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      options: [
+        { value: 'Computers', label: 'Computers' },
+        { value: 'Real Estate', label: 'Real Estate' },
+        { value: 'Cars/Motorcycles', label: 'Cars &amp; Motorcycles' },
+      ]
+    }
+  }
   render() {
+
+    const customControlStyles = {
+      option: (provided, state) => ({
+        ...provided,
+      }),
+      control: (base) => ({
+        ...base,
+        height: 55,
+      })
+    }
+
     return (
       <div className="hero-wrapper">
         <div className="page-title">
@@ -60,18 +85,11 @@ class SearchForm extends Component {
                 <div className="col-md-3 col-sm-3">
                   <div className="form-group">
                     <label htmlFor="category" className="col-form-label"> Category?</label>
-                    <select
-                      name="category"
-                      id="category"
-                      data-placeholder="Select Category"
-                    >
-                      <option value>Select Category</option>
-                      <option value={1}>Computers</option>
-                      <option value={2}>Real Estate</option>
-                      <option value={3}>Cars &amp; Motorcycles</option>
-                      <option value={4}>Furniture</option>
-                      <option value={5}>Pets &amp; Animals</option>
-                    </select>
+                    <Select
+                      className="selecx"
+                      options={this.state.options}
+                      styles={customControlStyles}
+                    />
                   </div>
                   {/*end form-group*/}
                 </div>
