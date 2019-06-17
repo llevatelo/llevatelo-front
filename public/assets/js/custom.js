@@ -6,7 +6,7 @@ var resizeId;
 
 $(document).ready(function($) {
     "use strict";
-      
+
 
 //  Geo Location button
 
@@ -30,7 +30,7 @@ $(document).ready(function($) {
     select.selectize({
         onDropdownOpen: dropdownOpen,
         onDropdownClose: dropdownClose,
-        allowEmptyOption: true,        
+        allowEmptyOption: true,
     });
 
     function dropdownOpen($dropdown){
@@ -80,7 +80,7 @@ $(document).ready(function($) {
 
 //  Button for class changing
 
-    
+
 
     if( $(".masonry").length ){
         $(".items.masonry").masonry({
@@ -511,7 +511,7 @@ if( $("#input-location2").length ){
 		if (!place.geometry) {
 			return;
 		}
-	});       
+	});
 }
 */
 

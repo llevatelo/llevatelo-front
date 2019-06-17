@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Image02 from "../assets/img/author-02.jpg";
-import Image06 from "../assets/img/author-06.jpg";
+import Image02 from "../../assets/img/author-02.jpg";
+import Image06 from "../../assets/img/author-06.jpg";
 import BlockMessageReceive from "./BlockMessageReceive";
 import BlockMessageReply from "./BlockMessageReply";
 

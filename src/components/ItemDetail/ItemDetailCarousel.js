@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Image21 from "../assets/img/image-21.jpg";
-import Image22 from "../assets/img/image-22.jpg";
-import Image23 from "../assets/img/image-23.jpg";
-import Image14 from "../assets/img/image-14.jpg";
-import Image20 from "../assets/img/image-20.jpg";
-import Image01 from "../assets/img/image-01.jpg";
+import Image21 from "../../assets/img/image-21.jpg";
+import Image22 from "../../assets/img/image-22.jpg";
+import Image23 from "../../assets/img/image-23.jpg";
+import Image14 from "../../assets/img/image-14.jpg";
+import Image20 from "../../assets/img/image-20.jpg";
+import Image01 from "../../assets/img/image-01.jpg";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel";
 

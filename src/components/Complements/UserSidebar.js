@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ImageAuthor01 from "../assets/img/author-01.jpg";
+import ImageAuthor01 from "../../assets/img/author-01.jpg";
 
 class UserSidebar extends Component {
   render() {

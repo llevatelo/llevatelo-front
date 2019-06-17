@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './components/App';
 import 'jquery-multifile';
 import 'icheck/icheck';
-
-
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import BackgroundIcons from "../assets/img/hero-background-icons.jpg";
-import Logo from "../assets/img/logo.png";
-import "../assets/bootstrap/css/bootstrap.css";
-import "../assets/fonts/font-awesome.css";
-import "../assets/css/selectize.css";
-import "../assets/css/style.css";
-import "../assets/css/user.css";
+import "../../assets/fonts/font-awesome.css";
+import "../../assets/css/selectize.css";
+import "../../assets/css/style.css";
+import "../../assets/css/user.css";
+import BackgroundIcons from "../../assets/img/hero-background-icons.jpg";
+import Logo from "../../assets/img/logo.png";
+import SecondaryNavigation from "../Navbar/SecondaryNavigation";
 import NavItem1 from "./NavItem1";
 import NavItem2 from "./NavItem2";
 import NavItem3 from "./NavItem3";
@@ -15,42 +15,7 @@ class Navbar extends Component {
     return (
       <div className="page home-page">
         <div className="hero-wrapper">
-          {/*============ Secondary Navigation ===============================================================*/}
-          <div className="secondary-navigation">
-            <div className="container">
-              <ul className="left">
-                <li>
-                  <span>
-                    <i className="fa fa-phone" /> +1 123 456 789
-                  </span>
-                </li>
-              </ul>
-              {/*end left*/}
-              <ul className="right">
-                <li>
-                  <a href="my-ads.html">
-                    <i className="fa fa-heart" />
-                    My Ads
-                  </a>
-                </li>
-                <li>
-                  <a href="sign-in.html">
-                    <i className="fa fa-sign-in" />
-                    Sign In
-                  </a>
-                </li>
-                <li>
-                  <a href="register.html">
-                    <i className="fa fa-pencil-square-o" />
-                    Register
-                  </a>
-                </li>
-              </ul>
-              {/*end right*/}
-            </div>
-            {/*end container*/}
-          </div>
-          {/*============ End Secondary Navigation ===========================================================*/}
+          <SecondaryNavigation />
           {/*============ Main Navigation ====================================================================*/}
           <div className="main-navigation">
             <div className="container">
