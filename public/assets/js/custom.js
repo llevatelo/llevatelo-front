@@ -16,31 +16,6 @@ $(document).ready(function($) {
         autoComplete(map);
     }
 
-//  Selectize
-
-    $("[data-enable-search=true]").each(function(){
-        $(this).selectize({
-            onDropdownOpen: dropdownOpen,
-            onDropdownClose: dropdownClose,
-            allowEmptyOption: false
-        });
-    });
-
-    var select = $("select");
-    select.selectize({
-        onDropdownOpen: dropdownOpen,
-        onDropdownClose: dropdownClose,
-        allowEmptyOption: true,
-    });
-
-    function dropdownOpen($dropdown){
-        $dropdown.addClass("opening");
-    }
-    function dropdownClose($dropdown){
-        $dropdown.removeClass("opening");
-    }
-
-
 //  Disable inputs in the non-active tab
 
     $(".form-slide:not(.active) input, .form-slide:not(.active) select, .form-slide:not(.active) textarea").prop("disabled", true);
@@ -319,7 +294,6 @@ function doneResizing(){
 // Change Tab
 
 function changeTab(_this){
-    var parameters = _this.data("selectize").items[0];
     var changeTarget = $("#" + _this.attr("data-change-tab-target"));
     var slide = changeTarget.find(".form-slide");
     if( parameters === "" ){

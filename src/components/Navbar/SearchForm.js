@@ -12,7 +12,7 @@ class SearchForm extends Component {
       options: [
         { value: 'Computers', label: 'Computers' },
         { value: 'Real Estate', label: 'Real Estate' },
-        { value: 'Cars/Motorcycles', label: 'Cars &amp; Motorcycles' },
+        { value: 'Cars/Motorcycles', label: 'Cars and Motorcycles' },
       ]
     }
   }
