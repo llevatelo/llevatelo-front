@@ -1,4 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 
 class SecondaryNavigation extends Component {
   render() {
@@ -8,34 +10,31 @@ class SecondaryNavigation extends Component {
           <ul className="left">
             <li>
               <span>
-                <i className="fa fa-phone" /> +1 123 456 789
+                <i className="fa fa-phone" /> +57 3015692996
               </span>
             </li>
           </ul>
           {/*end left*/}
           <ul className="right">
             <li>
-              <a href="my-ads.html">
+              <Link to="/my-ads" className='nav-link'>
                 <i className="fa fa-heart" />
-                My Ads
-              </a>
+                Mis Artículos
+              </Link>
             </li>
             <li>
-              <a href="sign-in.html">
+              <Link to="/login" className='nav-link'>
                 <i className="fa fa-sign-in" />
-                Sign In
-              </a>
+                Ingresar
+              </Link>
             </li>
             <li>
-              <a href="register.html">
-                <i className="fa fa-pencil-square-o" />
-                Register
-              </a>
+              <Link to="/register" className='nav-link'>
+                <i className="fa fa-pencil-square-o" /> Registrarse
+              </Link>
             </li>
           </ul>
-          {/*end right*/}
         </div>
-        {/*end container*/}
       </div>
     );
   }

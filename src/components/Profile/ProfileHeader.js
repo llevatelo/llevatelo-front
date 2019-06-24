@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavbarCollapse from "../Navbar/NavbarCollapse";
+import Navbar from "../Navbar/Navbar";
 import FormCollapse from "../Navbar/FormCollapse";
 import SecondaryNavigation from "../Navbar/SecondaryNavigation";
 import PageHeader from "../Complements/PageHeader";
@@ -9,17 +9,10 @@ class ProfileHeader extends Component {
     return (
       <div className="hero-wrapper">
         {/*============ Secondary Navigation ===============================================================*/}
-        <SecondaryNavigation />
-        {/* Navbar */}
-        <NavbarCollapse />
-        {/* End of Navbar */}
-
-        {/* Form Collapse */}
+        <Navbar />
         <FormCollapse />
-
         <PageHeader title={this.props.title} />
         <div className="background" />
-        {/*end background*/}
       </div>
     );
   }
