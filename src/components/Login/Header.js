@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import FormCollapse from "../Navbar/FormCollapse";
 import PageHeader from "../Complements/PageHeader";
 
-class CreateArticleHeader extends Component {
+class Header extends Component {
   render() {
     return (
       <div className="hero-wrapper">
@@ -17,4 +17,4 @@ class CreateArticleHeader extends Component {
   }
 }
 
-export default CreateArticleHeader;
+export default Header;

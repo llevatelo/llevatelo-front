@@ -10,6 +10,7 @@ import SoldItems from '../pages/Solditems';
 import Messages from '../pages/Messages';
 import ItemDetail from '../pages/ItemDetail';
 import CreateArticle from '../pages/CreateArticle';
+import Login from '../components/Login/Login';
 import FAQs from '../pages/FAQs';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/home" component={ Home } />
           <Route exact path="/profile" component={ Profile } />
+          <Route exact path="/login" component={ Login } />
           <Route exact path="/my-ads" component={ Ads } />
           <Route exact path="/bookmarks" component={ Bookmark } />
           <Route exact path="/change-password" component={ ChangePassword } />
