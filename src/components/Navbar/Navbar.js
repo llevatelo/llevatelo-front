@@ -5,9 +5,8 @@ import "../../assets/css/user.css";
 import BackgroundIcons from "../../assets/img/hero-background-icons.jpg";
 import Logo from "../../assets/img/logo.png";
 import SecondaryNavigation from "../Navbar/SecondaryNavigation";
-import NavItem1 from "./NavItem1";
-import NavItem2 from "./NavItem2";
-import NavItem3 from "./NavItem3";
+import { Link } from 'react-router-dom'
+
 
 class Navbar extends Component {
   render() {
@@ -36,47 +35,23 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse" id="navbar">
                   {/*Main navigation list*/}
                   <ul className="navbar-nav">
-                    <li className="nav-item active has-child">
-                      <a className="nav-link" href="/">
-                        Home
-                      </a>
-                      <ul className="child">
-                        <li className="nav-item">
-                          <a href="index.html" className="nav-link">
-                            Home 1
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a href="index-2.html" className="nav-link">
-                            Home 2
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a href="index-3.html" className="nav-link">
-                            Home 3
-                          </a>
-                        </li>
-                        <li className="nav-item">
-                          <a href="index-4.html" className="nav-link">
-                            Home 4
-                          </a>
-                        </li>
-                      </ul>
+                    <li className="nav-item active">
+                      <Link to="/login" className='nav-link'>Ingresar</Link>
                     </li>
-                    <NavItem1 />
-                    <NavItem2 />
-                    <NavItem3 />
+
                     <li className="nav-item">
-                      <a className="nav-link" href="contact.html">
-                        Contact
-                      </a>
+                      <Link to="/register" className='nav-link'>Registrarse</Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link to="/faq" className='nav-link'>Ayuda</Link>
                     </li>
                     <li className="nav-item">
                       <a
                         href="/create-article"
                         className="btn btn-primary text-caps btn-rounded btn-framed"
                       >
-                        Submit Ad
+                        Publicar Artículo
                       </a>
                     </li>
                   </ul>

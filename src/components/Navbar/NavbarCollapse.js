@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import Logo from "../../assets/img/logo.png";
-import NavItem1 from "./NavItem1";
-import NavItem2 from "./NavItem2";
-import NavItem3 from "./NavItem3";
 
 class NavbarCollapse extends Component {
   render() {
@@ -54,9 +51,6 @@ class NavbarCollapse extends Component {
                     </li>
                   </ul>
                 </li>
-                <NavItem1 />
-                <NavItem2 />
-                <NavItem3 />
                 <li className="nav-item">
                   <a className="nav-link" href="contact.html">
                     Contact

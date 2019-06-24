@@ -3,15 +3,15 @@ import ChangePasswordContent from '../components/ChangePassword/ChangePasswordCo
 import ProfileLayout from '../components/Layouts/ProfileLayout';
 
 class ChangePassword extends Component {
-    render() {
-        return (
-            <div className="App">
-                <ProfileLayout title="Change My Password">            
-                    <ChangePasswordContent />
-                </ProfileLayout>        
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="App">
+        <ProfileLayout title="Change My Password">
+          <ChangePasswordContent />
+        </ProfileLayout>
+      </div>
+    );
+  }
 }
 
 export default ChangePassword;

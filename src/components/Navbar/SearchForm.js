@@ -16,6 +16,7 @@ class SearchForm extends Component {
       ]
     }
   }
+
   render() {
 
     const customControlStyles = {
