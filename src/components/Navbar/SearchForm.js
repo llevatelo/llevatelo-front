@@ -1,9 +1,7 @@
 import React, { Component } from "react";
+import { Button, Input } from 'reactstrap';
 import BackgroundIcons from "../../assets/img/hero-background-icons.jpg";
-import Select from 'react-select';
-
 import "./styles.scss";
-
 
 class SearchForm extends Component {
   constructor(props){
@@ -18,92 +16,40 @@ class SearchForm extends Component {
   }
 
   render() {
-
-    const customControlStyles = {
-      option: (provided, state) => ({
-        ...provided,
-      }),
-      control: (base) => ({
-        ...base,
-        height: 55,
-      })
-    }
-
     return (
       <div className="hero-wrapper">
         <div className="page-title">
           <div className="container">
             <h1 className="opacity-40 center">
-              <a href="/">Buy</a>, <a href="/">Sell</a> or
-              <a href="/">Find</a>{" "} What You need
+              <a href="/">Intercambia</a>, <a href="/">Regale</a>&nbsp;
+              o <a href="/">Busque </a> lo que necesites
             </h1>
           </div>
-          {/*end container*/}
         </div>
-        {/*============ End Page Title =====================================================================*/}
-        {/*============ Hero Form ==========================================================================*/}
+
         <form className="hero-form form">
           <div className="container">
-            {/*Main Form*/}
             <div className="main-search-form">
               <div className="form-row">
-                <div className="col-md-3 col-sm-3">
+                <div className="col-md-9 col-sm-9">
                   <div className="form-group">
-                    <label htmlFor="what" className="col-form-label">What?</label>
-                    <input
-                      name="keyword"
+                    <Input
                       type="text"
-                      className="form-control"
-                      id="what"
-                      placeholder="What are you looking for?"
+                      name="search"
+                      id='search'
+                      className='form-control'
+                      placeholder="¿Que estás buscando?"
                     />
                   </div>
-                  {/*end form-group*/}
                 </div>
-                {/*end col-md-3*/}
                 <div className="col-md-3 col-sm-3">
-                  <div className="form-group">
-                    <label htmlFor="input-location" className="col-form-label">Where? </label>
-                    <input
-                      name="location"
-                      type="text"
-                      className="form-control"
-                      id="input-location"
-                      placeholder="Enter Location"
-                    />
-                    <span
-                      className="geo-location input-group-addon"
-                      data-toggle="tooltip"
-                      data-placement="top"
-                      title="Find My Position"
-                    >
-                      <i className="fa fa-map-marker" />
-                    </span>
-                  </div>
-                  {/*end form-group*/}
+                  <Button type="submit" color="primary" className='width-100'>
+                    Buscar
+                  </Button>
                 </div>
-                {/*end col-md-3*/}
-                <div className="col-md-3 col-sm-3">
-                  <div className="form-group">
-                    <label htmlFor="category" className="col-form-label"> Category?</label>
-                    <Select
-                      className="selecx"
-                      options={this.state.options}
-                      styles={customControlStyles}
-                    />
-                  </div>
-                  {/*end form-group*/}
-                </div>
-                {/*end col-md-3*/}
-                <div className="col-md-3 col-sm-3">
-                  <button type="submit" className="btn btn-primary width-100"> Search</button>
-                </div>
-                {/*end col-md-3*/}
               </div>
-              {/*end form-row*/}
             </div>
           </div>
-          {/*end container*/}
         </form>
         {/*============ End Hero Form ======================================================================*/}
         <div className="background">

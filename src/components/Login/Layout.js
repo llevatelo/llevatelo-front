@@ -6,7 +6,7 @@ class Layout extends Component {
   constructor(props){
     super(props)
   }
-  /* const children = props.children; */
+
   render() {
     return(
       <React.Fragment>
