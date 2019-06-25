@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ListingFullWidth from '../components/Home/ListingFullWidth';
+import Items from '../components/Home/Items';
 import HomeLayout from '../components/Layouts/HomeLayout';
 
 class Home extends Component {
@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div className="App">
         <HomeLayout>
-          <ListingFullWidth />
+          <Items />
         </HomeLayout>
       </div>
     );

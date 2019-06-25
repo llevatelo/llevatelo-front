@@ -22,7 +22,7 @@ class SearchForm extends Component {
           <div className="container">
             <h1 className="opacity-40 center">
               <a href="/">Intercambia</a>, <a href="/">Regale</a>&nbsp;
-              o <a href="/">Busque </a>{" "} lo que tu necesites
+              o <a href="/">Busque </a> lo que necesites
             </h1>
           </div>
         </div>
