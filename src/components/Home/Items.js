@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ItemSold from "./ItemSold";
 import Item from "./Item";
 
 class Items extends Component {
@@ -10,25 +9,75 @@ class Items extends Component {
           <section className="block">
             <div className="container">
               <div className="items grid grid-xl-4-items grid-lg-3-items grid-md-2-items">
-                <ItemSold />
-                <Item city="Nashville, TN" />
-                <Item city="Dallas, TX" />
-                <Item city="Provo, UT" />
+                <Item
+                  city="Nashville, TN"
+                  type="Regalo"
+                  cateogry= 'Libros'
+                  date='6/jul/2019'
+                  author= 'Nicolas'
+                  description='Proin at tortor eros. Phasellus porta nec elit non lacinia.
+                              Nam bibendum erat at leo faucibus vehicula. Ut laoreet porttitor'
+                />
+
+                <Item
+                  city="Nashville, TN"
+                  type="Cambio"
+                  cateogry= 'Libros'
+                  date='6/jul/2019'
+                  author= 'Juan'
+                  description='Proin at tortor eros. Phasellus porta nec elit non lacinia.
+                              Nam bibendum erat at leo faucibus vehicula. Ut laoreet porttitor'
+                />
+
+                <Item
+                  city="Nashville, TN"
+                  type="Regalo"
+                  cateogry= 'Libros'
+                  date='6/jul/2019'
+                  author= 'Hermes'
+                  description='Proin at tortor eros. Phasellus porta nec elit non lacinia.
+                              Nam bibendum erat at leo faucibus vehicula. Ut laoreet porttitor'
+                />
 
                 <a href="/create-article" className="item call-to-action">
                   <div className="wrapper">
                     <div className="title">
-                      <i className="fa fa-plus-square-o" />
-                      Create An Article
+                      <i className="fa fa-plus-square-o" /> Publicar Artículo
                     </div>
                   </div>
                 </a>
 
-                <Item city="Manhattan, NY" />
-                <Item city="Seattle, WA" />
-                <Item city="Detroit, MI" />
-                <Item city="Long Beach, CA" />
+                <Item
+                  city="Nashville, TN"
+                  type="Regalo"
+                  cateogry= 'Libros'
+                  date='6/jul/2019'
+                  author= 'Nicolas'
+                  description='Proin at tortor eros. Phasellus porta nec elit non lacinia.
+                              Nam bibendum erat at leo faucibus vehicula. Ut laoreet porttitor'
+                />
+
+                <Item
+                  city="Nashville, TN"
+                  type="Cambio"
+                  cateogry= 'Libros'
+                  date='6/jul/2019'
+                  author= 'Juan '
+                  description='Proin at tortor eros. Phasellus porta nec elit non lacinia.
+                              Nam bibendum erat at leo faucibus vehicula. Ut laoreet porttitor'
+                />
+
+                <Item
+                  city="Nashville, TN"
+                  type="Regalo"
+                  cateogry= 'Libros'
+                  date='6/jul/2019'
+                  author= 'Hermes'
+                  description='Proin at tortor eros. Phasellus porta nec elit non lacinia.
+                              Nam bibendum erat at leo faucibus vehicula. Ut laoreet porttitor'
+                />
               </div>
+
               <div className="page-pagination">
                 <nav aria-label="Pagination">
                   <ul className="pagination">
