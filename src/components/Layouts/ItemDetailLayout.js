@@ -1,12 +1,17 @@
 import React from "react";
-import ItemDetailHeader from "../ItemDetail/ItemDetailHeader";
+import Navbar from "../Navbar/Navbar";
+import ItemDetailTitle from "../ItemDetail/ItemDetailTitle";
 import Footer from "../Complements/Footer";
 
 function ItemDetailLayout(props) {
   return (
     <React.Fragment>
       <header className="hero">
-        <ItemDetailHeader />
+        <div className="hero-wrapper">
+          <Navbar />
+          <ItemDetailTitle price="100" />
+          <div className="background" />
+        </div>
       </header>
       {props.children}
       <Footer />

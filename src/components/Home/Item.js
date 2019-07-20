@@ -9,7 +9,7 @@ class Item extends Component {
 
   render() {
     return (
-      <div className="item">
+      <div className='item'>
         <div className="wrapper">
           <div className="image">
             <h3>
