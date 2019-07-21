@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { Component } from "react";
 import ItemDetailCarousel from '../components/ItemDetail/ItemDetailCarousel';
 import UserSidebar from '../components/Complements/UserSidebar';
 import ItemDetailLayout from '../components/Layouts/ItemDetailLayout';
+import "./styles.scss";
 
 class ItemDetails extends Component {
   constructor(props){
@@ -22,7 +23,7 @@ class ItemDetails extends Component {
                   <div className="row flex-column-reverse flex-md-row">
                     <div className="col-md-8">
                       <section>
-                        <h2>Description</h2>
+                        <h2>Descripción</h2>
                         <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec tincidunt arcu, sit
                           amet fermentum sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
@@ -33,41 +34,27 @@ class ItemDetails extends Component {
                       </section>
 
                       <section>
-                        <h2>Details</h2>
-                        <dl className="columns-3">
-                          <dt>Date Added</dt>
-                          <dd>05.04.2017</dd>
+                        <h2>Detalles</h2>
+                        <dl className="columns-1">
+                          <dt>Ubicación:</dt>
+                          <dd>Bogotá</dd>
                           <dt>Type</dt>
-                          <dd>Offer</dd>
-                          <dt>Status</dt>
-                          <dd>Used</dd>
-                          <dt>First Owner</dt>
-                          <dd>Yes</dd>
-                          <dt>Material</dt>
-                          <dd>Wood, Leather</dd>
-                          <dt>Color</dt>
-                          <dd>White, Grey</dd>
-                          <dt>Height</dt>
-                          <dd>47cm</dd>
-                          <dt>Width</dt>
-                          <dd>203cm</dd>
-                          <dt>Length</dt>
-                          <dd>54cm</dd>
+                          <dd>Regalo</dd>
+                          <dt>Categoria</dt>
+                          <dd>Libros</dd>
                         </dl>
                       </section>
 
                       <section>
-                        <h2>Features</h2>
-                        <ul className="features-checkboxes columns-3">
-                          <li>Quality Wood</li>
-                          <li>Brushed Alluminium Handles</li>
-                          <li>Foam mattress</li>
-                          <li>Detachable chaise section</li>
-                          <li>3 fold pull out mechanism</li>
-                        </ul>
+                        <h2>Compartir</h2>
+                        <div class="float-left text-align-right social">
+                          <a href="#"><i class="fa fa-facebook-square"></i></a>
+                          <a href="#"><i class="fa fa-twitter-square"></i></a>
+                          <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
                       </section>
-                      <hr />
                     </div>
+
                     <UserSidebar />
                   </div>
                 </div>

@@ -9,7 +9,7 @@ function ItemDetailLayout(props) {
       <header className="hero">
         <div className="hero-wrapper">
           <Navbar />
-          <ItemDetailTitle price="100" />
+          <ItemDetailTitle />
           <div className="background" />
         </div>
       </header>

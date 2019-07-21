@@ -1,44 +1,42 @@
 import React, { Component } from "react";
 import ImageAuthor01 from "../../assets/img/author-01.jpg";
+import { Alert } from 'reactstrap';
 
 class UserSidebar extends Component {
   render() {
     return (
       <div className="col-md-4">
-        <aside className="sidebar">
-          {/*Author*/}
+        <aside className="sidebar user-sidebar">
           <section>
-            <h2>Author</h2>
+            <h2>Contacto: </h2>
             <div className="box">
               <div className="author">
                 <div className="author-image">
-                  <div className="background-image">
-                    <img src={ImageAuthor01} alt="" />
+                  <div className="background-image"
+                  style={{backgroundImage: `url(${ImageAuthor01})`}}>
+                  >
                   </div>
                 </div>
-                {/*end author-image*/}
                 <div className="author-description">
                   <h3>Jane Doe</h3>
                   <div className="rating" data-rating={4} />
                   <a href="seller-detail-1.html" className="text-uppercase">
-                    Show My Listings
+                    Ver mas artículos de Jane Doe
                     <span className="appendix">(12)</span>
                   </a>
                 </div>
-                {/*end author-description*/}
               </div>
               <hr />
               <dl>
-                <dt>Phone</dt>
-                <dd>830-247-0930</dd>
+                <dt>Teléfono</dt>
+                <dd>****0930</dd>
                 <dt>Email</dt>
-                <dd>hijane@example.com</dd>
+                <dd>****@gmail.com</dd>
               </dl>
-              {/*end author*/}
               <form className="form email">
                 <div className="form-group">
                   <label htmlFor="name" className="col-form-label">
-                    Name
+                    Nombre
                   </label>
                   <input
                     name="name"
@@ -48,7 +46,6 @@ class UserSidebar extends Component {
                     placeholder="Your Name"
                   />
                 </div>
-                {/*end form-group*/}
                 <div className="form-group">
                   <label htmlFor="email" className="col-form-label">
                     Email
@@ -61,29 +58,30 @@ class UserSidebar extends Component {
                     placeholder="Your Email"
                   />
                 </div>
-                {/*end form-group*/}
                 <div className="form-group">
                   <label htmlFor="message" className="col-form-label">
-                    Message
+                    Mensaje
                   </label>
                   <textarea
                     name="message"
                     id="message"
                     className="form-control"
                     rows={4}
-                    placeholder="Hi there! I am interested in your offer ID 53951. Please give me more details."
-                    defaultValue={""}
+                    placeholder="Hola! Estoy interesando por este articulo. por favor deme mas detalles, gracias"
                   />
                 </div>
-                {/*end form-group*/}
                 <button type="submit" className="btn btn-primary">
-                  Send
+                  Enviar
                 </button>
               </form>
+
+              <Alert color="warning">
+                <p>
+                  <b>Llevatelo.co</b> NO participa en ninguna negociación, Sólo se limita a la publicación de los artículos de sus usuarios.
+                </p>
+              </Alert>
             </div>
-            {/*end box*/}
           </section>
-          {/*End Author*/}
         </aside>
       </div>
     );

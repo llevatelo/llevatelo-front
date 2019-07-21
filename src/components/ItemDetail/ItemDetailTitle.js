@@ -7,17 +7,16 @@ class ItemDetailTitle extends Component {
         <div className="container clearfix">
           <div className="float-left float-xs-none">
             <h1>
-              Furniture For Sale
-              <span className="tag">Offer</span>
+              Regalo varios libros
+              <span className="tag">Regalo</span>
             </h1>
             <h4 className="location">
-              <a href="/">Manhattan, NY</a>
+              <a href="/">Bogotá, Colombia</a>
             </h4>
           </div>
           <div className="float-right float-xs-none price">
-            <div className="number">${this.props.price}</div>
             <div className="id opacity-50">
-              <strong>ID: </strong>3479
+              <strong>ID: </strong> 3479
             </div>
           </div>
         </div>
