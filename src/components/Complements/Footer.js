@@ -9,7 +9,7 @@ class Footer extends Component {
         <div className="wrapper">
           <div className="container">
             <div className="row">
-              <div className="col-md-5">
+              <div className="col-md-4">
                 <a href="/" className="brand">
                   <img src={Logo} alt="" />
                 </a>
@@ -20,29 +20,26 @@ class Footer extends Component {
                 </p>
               </div>
               {/*end col-md-5*/}
-              <div className="col-md-3">
-                <h2>Navigation</h2>
+              <div className="col-md-5">
+                <h2>Navegación</h2>
                 <div className="row">
                   <div className="col-md-6 col-sm-6">
                     <nav>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="/home">Home</a>
+                          <a href="/home">Inicio</a>
                         </li>
                         <li>
-                          <a href="/home">Listing</a>
+                          <a href="/help">Ayuda</a>
                         </li>
                         <li>
-                          <a href="/home">Pages</a>
+                          <a href="/terms_and_conditions">Términos y condiciones</a>
                         </li>
                         <li>
-                          <a href="/">Extras</a>
+                          <a href="/security">Seguridad</a>
                         </li>
                         <li>
-                          <a href="/">Contact</a>
-                        </li>
-                        <li>
-                          <a href="/create-article">Submit Ad</a>
+                          <a href="/about">Acerca de</a>
                         </li>
                       </ul>
                     </nav>
@@ -51,13 +48,13 @@ class Footer extends Component {
                     <nav>
                       <ul className="list-unstyled">
                         <li>
-                          <a href="/my-ads">My Ads</a>
+                          <a href="/">Artículos</a>
                         </li>
                         <li>
-                          <a href="/">Sign In</a>
+                          <a href="/register">Registrarse</a>
                         </li>
                         <li>
-                          <a href="/">Register</a>
+                          <a href="/sign_in">Iniciar Sesión</a>
                         </li>
                       </ul>
                     </nav>
@@ -65,18 +62,16 @@ class Footer extends Component {
                 </div>
               </div>
               {/*end col-md-3*/}
-              <div className="col-md-4">
-                <h2>Contact</h2>
+              <div className="col-md-3">
+                <h2>Contacto</h2>
                 <address>
-                  <figure>
-                    124 Abia Martin Drive
-                    <br />
-                    New York, NY 10011
-                  </figure>
+                  <strong>Email:</strong> <a href="/">nmena.garzon@gmail.com</a>
                   <br />
-                  <strong>Email:</strong> <a href="/">hello@example.com</a>
+                  <strong>Skype: </strong> nmenag
                   <br />
-                  <strong>Skype: </strong> Craigs
+                  <strong>Telegram: </strong> +57 3015692996
+                  <br />
+                  <strong>Whatsapp: </strong> +57 3015692996
                   <br />
                   <br />
                   <a
